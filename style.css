@@ -2,3 +2,32 @@ img {
     width: 300px;
     height: auto;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    background-color: #263a5c;
+    color: white;
+    padding: 4px;
+    justify-content: space-evenly;
+}
+
+.header a {
+    color: #abcdef;
+}
+
+.header .title {
+
+    font-size: 36px;
+    font-weight: bold;
+}
+
