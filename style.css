@@ -46,6 +46,7 @@ a {
 
 .attentionGrab {
     font-size: 24px;
+    padding-left: 16px;
 }
 
 .attentionDescription {
@@ -57,6 +58,7 @@ button {
     background-color: #abcdef;
     font-weight: bold;
     border-radius: 8px;
+    margin-left: 16px;
 }
 
 .titlePanel img {
@@ -90,4 +92,55 @@ button {
 
 .content img {
     border-radius: 16px;
+}
+
+.quotePanel {
+    background-color: #263a5c;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    color: #abcdef;
+
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    padding: 36px;
+}
+
+.quoter{
+    align-self: flex-end;
+    padding: 16px;
+}
+
+.callToActionPanel {
+    background-color: #263a5c;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    align-items: center;
+    color: white;
+}
+
+.callToActionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.signupTitle {
+    font-weight: bold;
+}
+
+.signupDescription {
+    font-size: smaller;
+}
+
+.footer {
+    display: flex;
+    padding: 8px;
+    font-size: x-small;
+    justify-content: center;
+    background-color: #abcdef;
+    color:#263a5c;
 }
